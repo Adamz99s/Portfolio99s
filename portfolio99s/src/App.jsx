@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Profile from "./assets"
+import Profile from "./assets/Adamimg.jpg"
 import './App.css'
 
 function App() {
@@ -34,12 +34,14 @@ function App() {
       <main>
 
         <section>
-          <div className='container m-auto px-4 py-10 flex'>
+          <div className='container m-auto px-4 py-10 flex gap-6'>
           <div>
-
+          <h1 className='font-bold text-4xl'>Hello, Im Adam,</h1>
+          <h1 className='font-bold text-4x1 mt-1 gradient-text'>Junior Web Developer.</h1>
+          <p className='mt-4 text-gray-400'>A fresh graduates , curently seeking experiences</p>
           </div>
-          <div>
-            <img src={Profile} alt="Profile Image" />
+          <div className='ml-5'>
+            <img src={Profile} style={{width: 200, height:200, borderRadius: 200 / 2}} width="220" alt="Profile Image"  />
           </div>
           </div>
         </section>
