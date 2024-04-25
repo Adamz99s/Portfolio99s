@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Profile from "./assets/Adamimg.jpg"
 import Biowebproj from "./assets/Biowebproj.jpg"
+import Healthio from "./assets/Healthio.jpg"
 
 import './App.css'
 
@@ -61,13 +62,20 @@ function App() {
               <button className='px-3 py-2 border rounded-full mt-5 bg-gradient-to-t from-blue-500 to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Preview Here</button>
               </div>
             </div>
-            <div>
+            <div className='border rounded-md p-5'>
                 {/*IMPLEMENT NEXT IMG HERE */}
+                <img src={Healthio} style={{width:300, height:200}} alt="Bioweb project img" />
+              <h3 className='text-2xl font-semibold mt-8'>Health.io</h3>
+              <p className='text-gray-400 text-sm mt-2'>A Robust IoT Health Development using Esp8266 <br/>as base and Max30102 as sensor. Thus, with App <br/> included. </p>
+              <div className='flex justify-evenly mt-8'>
+              <button className='px-3 py-2 border rounded-full mt-5 bg-gradient-to-t from-blue-500 to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Preview Here</button>
+              </div>
             </div>
             </div>
 
          </div>
         </section>
+        
       </main>
     </>
   )
