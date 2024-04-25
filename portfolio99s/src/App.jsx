@@ -53,7 +53,7 @@ function App() {
           <div className='container m-auto cursor-pointer'>
             <h2 className='text-2xl font-semibold'>Projects</h2>
             <div className='flex gap-10 mt-5'>
-            <div className='border rounded-md p-5'>
+            <div className='border border-gray-500 rounded-md p-5'>
 
               <img src={Biowebproj} style={{width:400}} alt="Bioweb project img" />
               <h3 className='text-2xl font-semibold mt-8'>BioDyslexia.com</h3>
@@ -62,7 +62,7 @@ function App() {
               <button className='px-3 py-2 border rounded-full mt-5 bg-gradient-to-t from-blue-500 to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Preview Here</button>
               </div>
             </div>
-            <div className='border rounded-md p-5'>
+            <div className='border border-gray-500 rounded-md p-5'>
                 {/*IMPLEMENT NEXT IMG HERE */}
                 <img src={Healthio} style={{width:300, height:200}} alt="Bioweb project img" />
               <h3 className='text-2xl font-semibold mt-8'>Health.io</h3>
@@ -72,8 +72,24 @@ function App() {
               </div>
             </div>
             </div>
-
          </div>
+         {/*Stack Section*/}
+         <section className='mt-12'> 
+         <div className='container m-auto'>
+            <h2 className='text-2xl font-semibold'>Stacks</h2>
+            <div className='mt-14'>
+              <div className='flex justify-between'>
+            <h2 className='text-lg font-semibold'>HTML5</h2>
+            <p className='text-gray-500'>advanced</p>
+              </div>
+              
+          <span className='w-full h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md'>
+
+          </span>
+         </div>
+         </div>
+        
+         </section>
         </section>
         
       </main>
