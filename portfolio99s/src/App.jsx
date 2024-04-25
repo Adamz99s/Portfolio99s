@@ -22,7 +22,7 @@ function App() {
                   <a className='text-gray-400 hover:text-white cursor-pointer'> Projects</a>
                 </li>
                 <li>
-                <a className='text-gray-400 hover:text-white cursor-pointer'> Technologies</a>
+                <a className='text-gray-400 hover:text-white cursor-pointer'> Stack</a>
                 </li>
                 <li>
                 <a className='text-gray-400 hover:text-white cursor-pointer'> About me</a>
