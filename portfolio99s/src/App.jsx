@@ -78,14 +78,27 @@ function App() {
          <div className='container m-auto'>
             <h2 className='text-2xl font-semibold'>Stacks</h2>
             <div className='mt-14'>
-              <div className='flex justify-between'>
+             <div>
+             <div className='flex justify-between items-center'>
             <h2 className='text-lg font-semibold'>HTML5</h2>
             <p className='text-gray-500'>advanced</p>
               </div>
-              
-          <span className='w-full h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md'>
-
-          </span>
+           <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md'></span>
+             </div>
+             <div className='mt-6'>
+             <div className='flex justify-between items-center'>
+            <h2 className='text-lg font-semibold'>CSS5</h2>
+            <p className='text-gray-500'>advanced</p>
+              </div>
+           <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md'></span>
+             </div>
+             <div className='mt-6'>
+             <div className='flex justify-between items-center'>
+            <h2 className='text-lg font-semibold'>HTML5</h2>
+            <p className='text-gray-500'>advanced</p>
+              </div>
+           <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md'></span>
+             </div>
          </div>
          </div>
         
